@@ -1,0 +1,19 @@
+.Left {
+  .title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    @include LeftLabelsBg(70%, 15px);
+    >h1 {
+      margin: 0;
+      font-size: 1.2em;
+      color: #FFF;
+      line-height: 1.2em;
+    }
+  }
+}
+
+.Middle {
+  .title {
+
+  }
+}

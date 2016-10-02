@@ -1,0 +1,51 @@
+/**
+* General
+*/
+
+@import '../../node_modules/normalize-scss/sass/normalize';
+@include normalize();
+
+html,body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/**
+* Mixins
+*/
+@import 'Mixins/Backgrounds';
+@import 'Mixins/Sections';
+
+/**
+* Viewport
+*/
+
+@import 'Layout/Viewport';
+
+
+/**
+* Components
+*/
+
+  /**
+  * LEFT
+  */
+
+  @import 'Components/Title';
+  @import 'Components/Stats';
+  @import 'Components/Clicker';
+
+  /**
+  * RIGHT
+  */
+
+  @import 'Components/StoreList';

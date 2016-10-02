@@ -107,15 +107,16 @@ exports.devServer = function(options) {
       })
     ]
   };
-
-  if(options.poll) {
-    ret.watchOptions = {
-      // Delay the rebuild after the first change
-      aggregateTimeout: 300,
-      // Poll using interval (in ms, accepts boolean too)
-      poll: 1000
-    };
-  }
+  /*
+   if(options.poll) {
+   ret.watchOptions = {
+   // Delay the rebuild after the first change
+   aggregateTimeout: 300,
+   // Poll using interval (in ms, accepts boolean too)
+   poll: 1000
+   };
+   }
+   */
 
   return ret;
 }

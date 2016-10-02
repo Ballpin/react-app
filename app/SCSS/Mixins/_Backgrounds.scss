@@ -1,0 +1,7 @@
+@mixin LeftLabelsBg($width, $radius) {
+  width:$width;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 3px;
+  border-radius: $radius;
+}
