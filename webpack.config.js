@@ -16,7 +16,7 @@ const PATHS = {
 };
 
 process.env.BABEL_ENV = TARGET;
-console.log(PATHS.style);
+
 const common = merge(
     {
         // Entry accepts a path or an object of entries.
