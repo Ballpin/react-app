@@ -1,1 +1,2 @@
-Credits to: https://github.com/survivejs/react-boilerplate
+React App
+Nackademin
